@@ -1,0 +1,1 @@
+# salaoDeBeleza-frontend
