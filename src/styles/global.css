@@ -1,0 +1,72 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container-main {
+  padding: 20px;
+  min-height: calc(100vh - 60px);
+}
+
+
+.alert-custom {
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+.card-custom {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card-custom .card-header {
+  background-color: #ff69b4;
+  color: white;
+  border-radius: 8px 8px 0 0;
+}
+
+
+.btn-pink {
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+}
+
+.btn-pink:hover {
+  background-color: #ff1493;
+  color: white;
+}
+
+
+.table-hover tbody tr:hover {
+  background-color: #ffe4f5;
+}
+
+.spinner-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+
+.form-control:focus {
+  border-color: #ff69b4;
+  box-shadow: 0 0 0 0.2rem rgba(255, 105, 180, 0.25);
+}
+
+.form-label {
+  font-weight: 600;
+  color: #333;
+}
